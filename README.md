@@ -1,2 +1,2 @@
 # guessing-game
-A guessing game inspired by Among Us, and made with python
+A guessing game inspired by Among Us, made for both python and c++ using for function
