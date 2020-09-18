@@ -1,5 +1,5 @@
-from art import *
-tprint("@felpsbu")
+# from art import *
+# tprint("@felpsbu")
 
 
 print ("╔══════════════════════════════╗")
