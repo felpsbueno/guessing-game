@@ -4,27 +4,27 @@ tprint("@felpsbu")
 
 print ("╔══════════════════════════════╗")
 print ("║      Select the Imposter     ║")
-print ("║  Select: a color Red    (1)  ║")
-print ("║  Seletc: a color Blue   (2)  ║")
-print ("║  Select: a color Pink   (3)  ║")
-print ("║  Select: a color Green  (4)  ║")
-print ("║  Select: a color Orange (5)  ║")
-print ("║  Select: a color Yellow (6)  ║")
-print ("║  Select: a color Cyan   (7)  ║")
-print ("║  Select: a color Black  (8)  ║")
-print ("║  Select: a color White  (9)  ║")
+print ("║  Select: a color Red         ║")
+print ("║  Seletc: a color Blue        ║")
+print ("║  Select: a color Pink        ║")
+print ("║  Select: a color Green       ║")
+print ("║  Select: a color Orange      ║")
+print ("║  Select: a color Yellow      ║")
+print ("║  Select: a color Cyan        ║")
+print ("║  Select: a color Black       ║")
+print ("║  Select: a color White       ║")
 print ("╚══════════════════════════════╝")
 print ("You have 5 tries to guess the impostor")
 
 numberOfTries = 5
 triesLeft = numberOfTries
-rightAnswer = 8
+rightAnswer = "black"
 
 for x in range(numberOfTries):
     triesLeft -= 1
-    number = int(input("Enter your answer:"))
+    color = input("Enter your answer:")
 
-    if (number == rightAnswer):
+    if (color.lower() == rightAnswer.lower()):
         print ("Right Answer! Congrats")
     else: 
         print ("Wrong Answer, try again")

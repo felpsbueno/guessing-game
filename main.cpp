@@ -6,20 +6,20 @@ using namespace std;
 int main() {
   
   int numberOfTries = 5;
-  int x;
-  int rightAnswer = 8;
+  string x;
+  string rightAnswer = "black";
   
   cout << "╔══════════════════════════════╗" "\n";
   cout << "║      Select the Imposter     ║" "\n";
-  cout << "║  Select: a color Red    (1)  ║" "\n";
-  cout << "║  Seletc: a color Blue   (2)  ║" "\n";
-  cout << "║  Select: a color Pink   (3)  ║" "\n";
-  cout << "║  Select: a color Green  (4)  ║" "\n";
-  cout << "║  Select: a color Orange (5)  ║" "\n";
-  cout << "║  Select: a color Yellow (6)  ║" "\n";
-  cout << "║  Select: a color Cyan   (7)  ║" "\n";
-  cout << "║  Select: a color Black  (8)  ║" "\n";
-  cout << "║  Select: a color White  (9)  ║" "\n";
+  cout << "║  Select: a color Red         ║" "\n";
+  cout << "║  Seletc: a color Blue        ║" "\n";
+  cout << "║  Select: a color Pink        ║" "\n";
+  cout << "║  Select: a color Green       ║" "\n";
+  cout << "║  Select: a color Orange      ║" "\n";
+  cout << "║  Select: a color Yellow      ║" "\n";
+  cout << "║  Select: a color Cyan        ║" "\n";
+  cout << "║  Select: a color Black       ║" "\n";
+  cout << "║  Select: a color White       ║" "\n";
   cout << "╚══════════════════════════════╝" "\n";
   cout << "You have 5 tries to guess the impostor" "\n";
 
@@ -29,7 +29,7 @@ int main() {
     cout << "Type your answer" "\n";
     cin >> x;
 
-    if (x == rightAnswer) 
+    if (!x.compare(rightAnswer))
     {
       cout << "Right Answer! Congrats" "\n";
     }
