@@ -31,7 +31,7 @@ int main() {
 
     if (!x.compare(rightAnswer))
     {
-      cout << "Right Answer! Congrats" "\n";
+      cout << "Right Answer! Congrats" "\n"
     }
     else 
     {
